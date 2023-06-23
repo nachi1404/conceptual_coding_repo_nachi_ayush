@@ -5,10 +5,9 @@ class Event
     String date;
     String time;
     String venue;
+    Vector<String> user_reg;
     String additional;
-    
-}
-class techno_rush extends Event
-{
-
+    public void display();
+    public void modify();
+    public void delete();
 }
