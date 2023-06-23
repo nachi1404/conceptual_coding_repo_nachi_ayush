@@ -5,9 +5,16 @@ class Event
     String date;
     String time;
     String venue;
-    Vector<String> user_reg;
     String additional;
-    public void display();
-    public void modify();
-    public void delete();
+    
+}
+class techno_rush extends Event
+{
+    public static void main(String[] args) {
+        System.out.printf("***This is a Event Management Program");
+
+        while(true) {
+
+        }
+    }
 }
