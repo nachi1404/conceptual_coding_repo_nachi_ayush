@@ -11,7 +11,10 @@ class Event
 class techno_rush extends Event
 {
     public static void main(String[] args) {
-        System.out.printf("This is a Event Management Program");
-        
+        System.out.printf("***This is a Event Management Program");
+
+        while(true) {
+
+        }
     }
 }
